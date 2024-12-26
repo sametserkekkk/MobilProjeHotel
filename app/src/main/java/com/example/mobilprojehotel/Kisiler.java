@@ -19,6 +19,6 @@ public class Kisiler {
 
     public static Kisiler fromString(String str) {
         String[] parts = str.split(",");
-        return new Kisiler(parts[0], parts[1], parts[2], parts[3]);
+        return new Kisiler(parts[0], parts[1], parts[2], parts[3]) ;
     }
 }
