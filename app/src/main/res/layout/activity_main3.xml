@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/gray"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="170dp"
+                android:text="@string/otelAdi"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/etAdSoyad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:ems="10"
+                android:background="@drawable/etarkaplan"
+                android:inputType="text"
+                android:textColorHint="@color/lighterGray"
+                android:hint="@string/isimsoyisim" />
+
+            <EditText
+                android:id="@+id/etTCKN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:ems="10"
+                android:textColorHint="@color/lighterGray"
+                android:background="@drawable/etarkaplan"
+                android:inputType="number"
+                android:hint="@string/tcno" />
+
+            <EditText
+                android:id="@+id/etGSM"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:ems="10"
+                android:textColorHint="@color/lighterGray"
+                android:background="@drawable/etarkaplan"
+                android:inputType="number"
+                android:hint="@string/gsm" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/etOdaNo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="35dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/etarkaplan"
+                    android:ems="10"
+                    android:hint="@string/odano"
+                    android:inputType="number"
+                    android:textColorHint="@color/lighterGray" />
+
+                <Button
+                    android:id="@+id/btnBilgileriGetir"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="30dp"
+                    android:backgroundTint="@color/blue"
+                    android:layout_marginTop="32dp"
+                    app:cornerRadius="20dp"
+                    android:text="@string/bilgileriGetir" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnRezerveIptal"
+                android:layout_marginTop="45dp"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:backgroundTint="@color/blue"
+                android:text="@string/rezerveIptalButon"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:cornerRadius="20dp" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/geri"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="320dp"
+                app:srcCompat="@drawable/butonarkaplan" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

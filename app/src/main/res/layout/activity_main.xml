@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/gray"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="170dp"
+        android:textAlignment="center"
+        android:textSize="35sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:text="@string/otelAdi" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnOdaRezerveEt"
+            android:layout_width="175dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="20dp"
+            android:backgroundTint="@color/white"
+            android:text="@string/rezerveEt"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:cornerRadius="20dp" />
+
+        <Button
+            android:id="@+id/btnRezerveIptal"
+            android:layout_width="175dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="20dp"
+            android:backgroundTint="@color/white"
+            android:text="@string/rezervasyonIptal"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            app:cornerRadius="20dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnRezerveGoruntule"
+            android:layout_width="175dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="120dp"
+            android:backgroundTint="@color/white"
+            android:text="@string/rezerveGoruntule"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:cornerRadius="20dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

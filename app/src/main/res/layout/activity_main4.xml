@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/gray"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity4">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="170dp"
+        android:text="@string/otelAdi"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/odaBir"
+                android:textAlignment="textStart"
+                android:textColor="@color/lighterGray"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/odaIki"
+                android:textAlignment="textStart"
+                android:textColor="@color/lighterGray"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/odaUc"
+                android:textAlignment="textStart"
+                android:textColor="@color/lighterGray"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/odaDort"
+                android:textAlignment="textStart"
+                android:textColor="@color/lighterGray"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/odaBes"
+                android:textAlignment="textStart"
+                android:textColor="@color/lighterGray"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/odaAlti"
+                android:textAlignment="textStart"
+                android:textColor="@color/lighterGray"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/odaYedi"
+                android:textAlignment="textStart"
+                android:textColor="@color/lighterGray"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/odaSekiz"
+                android:textAlignment="textStart"
+                android:textColor="@color/lighterGray"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/odaDokuz"
+                android:textAlignment="textStart"
+                android:textColor="@color/lighterGray"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/odaOn"
+                android:textAlignment="textStart"
+                android:textColor="@color/lighterGray"
+                android:textSize="17sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvoda1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:text="TextView"
+                android:textAlignment="textEnd"
+                android:textColor="@color/lighterGray"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/tvoda2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:text="TextView"
+                android:textAlignment="textEnd"
+                android:textColor="@color/lighterGray"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/tvoda3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:text="TextView"
+                android:textAlignment="textEnd"
+                android:textColor="@color/lighterGray"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/tvoda4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:text="TextView"
+                android:textAlignment="textEnd"
+                android:textColor="@color/lighterGray"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/tvoda5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:text="TextView"
+                android:textAlignment="textEnd"
+                android:textColor="@color/lighterGray"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/tvoda6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:text="TextView"
+                android:textAlignment="textEnd"
+                android:textColor="@color/lighterGray"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/tvoda7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:text="TextView"
+                android:textAlignment="textEnd"
+                android:textColor="@color/lighterGray"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/tvoda8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:text="TextView"
+                android:textAlignment="textEnd"
+                android:textColor="@color/lighterGray"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/tvoda9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:text="TextView"
+                android:textAlignment="textEnd"
+                android:textColor="@color/lighterGray"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/tvoda10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:text="TextView"
+                android:textAlignment="textEnd"
+                android:textColor="@color/lighterGray"
+                android:textSize="17sp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/geri"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="320dp"
+            app:srcCompat="@drawable/butonarkaplan" />
+    </LinearLayout>
+
+
+</LinearLayout>

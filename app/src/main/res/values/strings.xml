@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Proje</string>
+    <string name="otelAdi">X Hotel</string>
+    <string name="rezerveEt">Oda Rezerve Et</string>
+    <string name="rezervasyonIptal">Rezervasyonu İptal Et</string>
+    <string name="rezerveGoruntule">Rezerve Odalarını Görüntüle</string>
+    <string name="rezerveSure">Rezervasyon Süresini Arttır/Azalt</string>
+
+    <string name="tcno">TC Kimlik Numaranızı Giriniz</string>
+    <string name="gsm">GSM Numaranızı Giriniz</string>
+    <string name="isimsoyisim">Adınızı ve Soyadınızı Giriniz</string>
+    <string name="odano">Oda Numarasını Giriniz</string>
+    <string name="kaydet">Kaydet</string>
+    <string name="rezerveIptalButon">Rezervi İptal Et</string>
+    <string name="bilgileriGetir">Bilgileri Getir</string>
+
+    <string name="odaBir">Oda 1</string>
+    <string name="odaIki">Oda 2</string>
+    <string name="odaUc">Oda 3</string>
+    <string name="odaDort">Oda 4</string>
+    <string name="odaBes">Oda 5</string>
+    <string name="odaAlti">Oda 6</string>
+    <string name="odaYedi">Oda 7</string>
+    <string name="odaSekiz">Oda 8</string>
+    <string name="odaDokuz">Oda 9</string>
+    <string name="odaOn">Oda 10</string>
+
+    <string name="dolu">Dolu</string>
+    <string name="bos">Bos</string>
+
+    <string name="sure">Süre</string>
+    <string name="gun">Süre Giriniz (Gün)</string>
+
+    <string name="artir">Arttır</string>
+    <string name="azalt">Azalt</string>
+</resources>
